@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoProfessor", "CursoProfessor.csproj", "{3FC92EE7-29BF-4AAF-92CB-BE631B86270D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoProfessor.API", "..\CursoProfessor.API\CursoProfessor.API.csproj", "{493455BB-A0EE-4ED5-844E-F50E0E317DBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC92EE7-29BF-4AAF-92CB-BE631B86270D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC92EE7-29BF-4AAF-92CB-BE631B86270D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC92EE7-29BF-4AAF-92CB-BE631B86270D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC92EE7-29BF-4AAF-92CB-BE631B86270D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493455BB-A0EE-4ED5-844E-F50E0E317DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493455BB-A0EE-4ED5-844E-F50E0E317DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493455BB-A0EE-4ED5-844E-F50E0E317DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493455BB-A0EE-4ED5-844E-F50E0E317DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1D14861-1E68-43A4-8087-956B8990A8D2}
+	EndGlobalSection
+EndGlobal
