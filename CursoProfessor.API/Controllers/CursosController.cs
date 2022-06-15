@@ -37,19 +37,17 @@ namespace CursoProfessor.API.Controllers
 
             return listaCursos;
         }
-        //[HttpPut]
-        //public Cursos PutCursos(int cursos_id, [FromBody] CursosViewModel cursosupdate)
-        //{
-        //     cursosupdate.cursos_id = cursos_id;
-        //     return cursosupdate();
-        //}
-       
-        //[HttpDelete("{id}")]
-        //public ActionResult DeletarCurso(int cursos_id)[FromBody] CursosViewModel cursosRemove)
-        //{
-        //    Cursos objetoRemove = _cursos
-        //        .DeletarCurso(cursosRemove);
-        //    return Remove("Cursos", objetoRemove);
-        //}
+
+        [HttpPut("{curso_id}")]
+        public void PutCursos(int cursos_id)
+        {
+            Cursos cursos = new Cursos();
+        }
+
+        [HttpDelete("{curso_id}")]
+        public void DeletarCurso(int curso_id)
+        {
+            Cursos cursos = new Cursos(); 
+        }
     }
 }

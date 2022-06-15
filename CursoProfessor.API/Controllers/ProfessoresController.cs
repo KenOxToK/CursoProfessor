@@ -37,5 +37,17 @@ namespace CursoProfessor.API.Controllers
 
             return listaProfessores;
         }
+        [HttpPut("{professores_id}")]
+        public void PutProfessores()
+        {
+            Professores professores = new Professores();
+        }
+
+        [HttpDelete("{professores_id}")]
+        public void DeletarProfessores(int professores_id)
+        {
+            Professores professores = new Professores();
+        }
+
     }
 }

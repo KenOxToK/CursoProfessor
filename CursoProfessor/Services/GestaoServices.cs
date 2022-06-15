@@ -28,6 +28,7 @@ namespace CursoProfessor.Services
 
             return cursos;
         }
+
         public List<Cursos> ListarCursos()
         {
             return _context.TabelaDeCursos
@@ -37,24 +38,24 @@ namespace CursoProfessor.Services
                 .ToList();
         }
 
-        //[HttpDelete("{id}")]
-        //public Cursos DeletarCurso(int id)
-        //{
-        //    Cursos cursos = _context.TabelaDeCursos.FirstOrDefault(cursos => cursos.cursos_id == id);
-        //    _context.Remove(cursos);
-        //    _context.SaveChanges();
-        //    return Cursos();
-        //}
+        public Cursos PutCursos(CursosViewModel cursosUpdate)
+        {
+            Cursos cursos = new Cursos();
+            cursos.cursos_nome = cursosUpdate.cursos_nome;
+            cursos.cursos_sala = cursosUpdate.cursos_sala;
 
-        //public Cursos PutCursos(CursosViewModel cursosupdate)
-        //{
-        //    Cursos cursos = new Cursos();
-        //    Cursos curso = _context.TabelaDeCursos.FirstOrDefault(curso => curso.cursos_id == cursos_id);
-        //    cursos.cursos_nome = cursosupdate.cursos_nome;
-        //    cursos.cursos_sala = cursosupdate.cursos_sala;
-        //    _context.SaveChanges();
-        //    return cursos;
-        //}
+            _context.TabelaDeCursos.Add(cursos);
+            _context.SaveChanges();
+
+            return cursos;
+        }
+
+        public void DeletarCurso(int cursos_id)
+        {
+            Cursos cursos = new Cursos();
+            _context.TabelaDeCursos.Remove(cursos);
+            _context.SaveChanges();
+        }
 
         public void CadastrarCursos()
         {
@@ -68,12 +69,10 @@ namespace CursoProfessor.Services
 
             Console.WriteLine("Qual o numero da sala?");
             cursos.cursos_sala = int.Parse(Console.ReadLine());
-
-         
         }
-
-        
-
+            //////////-------------------
+            //////////-------------------
+            //////////-------------------
         public Professores CadastrarProfessores(ProfessoresViewModel professoresrecebidos)
         {
             Professores professores = new Professores();
@@ -92,10 +91,28 @@ namespace CursoProfessor.Services
         public List<Professores> ListarProfessores()
         {
             return _context.TabelaDeProfessores
-               .OrderBy(cursos => cursos.professores_id)
-                .OrderBy(cursos => cursos.professores_nome)
-                .OrderBy(cursos => cursos.professores_email)
+               .OrderBy(professores => professores.professores_id)
+                .OrderBy(professores => professores.professores_nome)
+                .OrderBy(professores => professores.professores_email)
                 .ToList();
+        }
+        public Professores PutProfessores(ProfessoresViewModel professoresupdate)
+        {
+            Professores professores = new Professores();
+            professores.professores_nome = professoresupdate.professores_nome;
+            professores.professores_email = professoresupdate.professores_email;
+            _context.TabelaDeProfessores.Add(professores);
+            _context.SaveChanges();
+
+            return professores;
+        }
+        public void DeletarProfessores(int professores_id)
+        {
+            Professores professores = new Professores();
+
+            _context.TabelaDeProfessores.Remove(professores);
+            _context.SaveChanges();
+
         }
         public void CadastrarProfessores()
         {

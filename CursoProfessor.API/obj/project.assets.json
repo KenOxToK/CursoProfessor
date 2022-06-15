@@ -6525,11 +6525,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\CursoProfessor - Banco de dado 3\\CursoProfessor.API\\CursoProfessor.API.csproj",
+      "projectUniqueName": "C:\\CursoProfessor\\CursoProfessor.API\\CursoProfessor.API.csproj",
       "projectName": "CursoProfessor.API",
-      "projectPath": "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\CursoProfessor - Banco de dado 3\\CursoProfessor.API\\CursoProfessor.API.csproj",
+      "projectPath": "C:\\CursoProfessor\\CursoProfessor.API\\CursoProfessor.API.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\CursoProfessor - Banco de dado 3\\CursoProfessor.API\\obj\\",
+      "outputPath": "C:\\CursoProfessor\\CursoProfessor.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6546,8 +6546,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\CursoProfessor - Banco de dado 3\\CursoProfessor\\CursoProfessor.csproj": {
-              "projectPath": "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\CursoProfessor - Banco de dado 3\\CursoProfessor\\CursoProfessor.csproj"
+            "C:\\CursoProfessor\\CursoProfessor\\CursoProfessor.csproj": {
+              "projectPath": "C:\\CursoProfessor\\CursoProfessor\\CursoProfessor.csproj"
             }
           }
         }

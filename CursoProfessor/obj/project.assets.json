@@ -6544,11 +6544,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\CursoProfessor - Banco de dado 3\\CursoProfessor\\CursoProfessor.csproj",
+      "projectUniqueName": "C:\\CursoProfessor\\CursoProfessor\\CursoProfessor.csproj",
       "projectName": "CursoProfessor",
-      "projectPath": "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\CursoProfessor - Banco de dado 3\\CursoProfessor\\CursoProfessor.csproj",
+      "projectPath": "C:\\CursoProfessor\\CursoProfessor\\CursoProfessor.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\CursoProfessor - Banco de dado 3\\CursoProfessor\\obj\\",
+      "outputPath": "C:\\CursoProfessor\\CursoProfessor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",

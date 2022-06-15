@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C4Cr/uEGgGZLo96PFGhxFtCSXMPHZLQ45lsRyuNtMFqqiS+i/O/eG8vcNBb0SibCuR2S8L9fbrSAf046b59Trg==",
+  "dgSpecHash": "q85g02BVsgYQK3vvVZTnJKjqf5Sot0+4pMQ7+cFk7+4/b/bpg7czfjyvoDVpDFNjz84pVxwzcjeFoNVSSNm3+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\CursoProfessor - Banco de dado 3\\CursoProfessor.API\\CursoProfessor.API.csproj",
+  "projectFilePath": "C:\\CursoProfessor\\CursoProfessor.API\\CursoProfessor.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Pichau\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
